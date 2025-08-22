@@ -50,4 +50,53 @@ The dataset contains 5572 entries and 2 columns, and importantly, it has no miss
 
 To run this project, you will need the following Python libraries:
 
-- pand
+- pandas
+- numpy
+- scikit-learn
+
+## 🚀 Getting Started
+
+Follow these steps to get a copy of this project up and running on your local machine:
+
+### Installation
+
+1. Clone the repository (if applicable):
+```bash
+git clone <repository_url>
+cd <repository_name>
+```
+
+2. Install the required Python packages:
+```bash
+pip install pandas numpy scikit-learn
+```
+
+### Usage
+
+1. **Place the dataset**: Ensure the `mail_data.csv` file is located in the same directory as the Jupyter notebook (`Spam_Mail_Prediction.ipynb`).
+
+2. **Run the Jupyter Notebook**: Open and execute all the cells in the `Spam_Mail_Prediction.ipynb` notebook using a Jupyter environment (e.g., Jupyter Lab, Jupyter Notebook, Google Colab).
+
+The notebook will:
+- Load and preprocess the email data.
+- Convert text messages into numerical features.
+- Train the Logistic Regression model.
+- Output the model's accuracy on training and test data.
+- Demonstrate a prediction for a sample email message.
+
+## 📈 Results
+
+The notebook outputs the accuracy scores for the Logistic Regression model on both the training and test datasets. These scores indicate the percentage of correctly classified emails.
+
+- **Accuracy on Training Data**: Approximately 0.9677 (96.77%)
+- **Accuracy on Test Data**: Approximately 0.9668 (96.68%)
+
+These high accuracy scores suggest that the Logistic Regression model performs exceptionally well in distinguishing between spam and ham emails, demonstrating strong generalization capabilities to new, unseen messages.
+
+## 🧑‍💻 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit pull requests.
+
+## 📄 License
+
+This project is open-source.
